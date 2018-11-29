@@ -27,7 +27,7 @@ class Users(View):
         print(data)
         data = json.loads(data)
         try:
-            new_User = User(name=data["name"], description=data["description"], budget=data["budget"], job_start_time=data["job_start_time"] )
+            new_User = User(name=data["name"], water=data["water"], alcohol=data["alcohol"], caffeine=data["caffeine"] )
         
             new_User.save()
             print('this is a new User', new_User.id)
@@ -58,16 +58,16 @@ class User_detail(View):
             for key in data_key:
                 if key == "name":
                     edit_User.name = data[key]
-                if key == "description":
-                    edit_User.description = data[key]
-                if key == "budget":
-                    edit_User.budget = data[key]
-                if key == 'job_start_time':
-                    edit_User.job_start_time = data[key]
-                if key == 'pickup_available':
-                    edit_User.pickup_available =data[key]
-                if key == 'contact_info':
-                    edit_User.contact_info = data[key]
+                if key == "water":
+                    edit_User.water = data[key]
+                if key == "alcohol":
+                    edit_User.alcohol = data[key]
+                if key == 'caffeine':
+                    edit_User.caffeine = data[key]
+                if key == 'weight':
+                    edit_User.weight =data[key]
+                if key == 'age':
+                    edit_User.age = data[key]
 
             edit_User.save()
             return JsonResponse({"updated":data},  safe=False)
