@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Users/', include('mainpage.urls'))
+    path('Users/', include('django.contrib.auth.urls')),
+#path('', TemplateView.as_view(template_name='home.html'), name)
 ]
