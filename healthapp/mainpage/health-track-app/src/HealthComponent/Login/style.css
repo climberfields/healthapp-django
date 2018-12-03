@@ -1,0 +1,31 @@
+.container {
+  background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/health-background-7.jpg');
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: 37.5em;
+  color: white;
+}
+
+.login {
+  /* background-color: red; */
+  margin-top: 150px;
+}
+
+.register {
+  /* background-color: lightblue; */
+  margin-top: 100px;
+}
+
+.info {
+  width: 280px;
+}
+
+.infoBtn {
+  /* background-color: red; */
+  width: 10em%;
+  font-weight: bold;
+  font-size: 30px;
+  color: blue;
+  border: 5px solid blue;
+  border-radius: 20%;
+}

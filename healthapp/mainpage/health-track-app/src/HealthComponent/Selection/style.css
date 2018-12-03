@@ -1,0 +1,110 @@
+.container {
+  position: absolute;
+  width: 70%;
+}
+
+.innerSelection {
+  background-color: blue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.logout {
+  position: fixed;
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+  float: right;
+}
+
+
+
+#coffeeDiv {
+  background-image: url('https://images.freeimages.com/images/premium/small-comps/1991/19911057-coffee-background.jpg');
+  background-repeat: no-repeat;
+  height: 33.3333333%;
+  background-size: cover;
+
+}
+
+#coffeeDiv a{
+  color: white;
+  text-decoration: none;
+}
+
+#coffeeDiv button {
+  /* background-color: orange; */
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 250px;
+  font-size: 50px;
+  margin-top: 1.3em;
+}
+
+#coffeeDiv button:hover {
+  border: 3px dotted silver;
+  background-color: brown;
+
+}
+
+
+#alcoholDiv {
+  background-image: url('https://pbs.twimg.com/profile_images/723002693539631104/HtdAvn1T_400x400.jpg');
+  background-repeat: no-repeat;
+  height: 33.3333333%;
+  background-size: cover;
+
+}
+
+#alcoholDiv button {
+  /* background-color: orange; */
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 250px;
+  font-size: 50px;
+  margin-top: 1.3em;
+
+}
+
+#alcoholDiv a {
+  color: white;
+  text-decoration: none;
+}
+
+#alcoholDiv button:hover {
+  border: 3px dotted silver;
+  background-color: orange;
+
+}
+
+#summaryDiv {
+  background-image: url('https://blog.syncfusion.com/wp-content/uploads/2018/08/Tile_EJ2_Chart01_9a806554-256x256.png');
+  background-repeat: no-repeat;
+  height: 33.3333333%;
+  background-size: cover;
+
+}
+
+#summaryDiv button:hover {
+  border: 3px dotted silver;
+  background-color: orange;
+}
+
+#summaryDiv button {
+  /* background-color: orange; */
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 250px;
+  font-size: 50px;
+  margin-top: .7em;
+
+}
+
+#summaryDiv button:hover {
+  border: 3px dotted silver;
+  background-color: blue;
+}
